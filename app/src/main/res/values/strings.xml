@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImageSlideShow</string>
+    <string name="but_start">start</string>
+    <string name="but_stop">stop</string>
+</resources>
