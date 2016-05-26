@@ -17,6 +17,9 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
         <Button
             android:id="@+id/but_start"
             android:layout_width="wrap_content"
@@ -27,29 +30,54 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/but_stop"/>
+        <EditText
+            android:id="@+id/edit_time"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_second"/>
     </LinearLayout>
     <ViewFlipper
+        android:id="@+id/view_flip"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/chicken1"
+            android:src="@drawable/img1"
             />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/chicken2"
+            android:src="@drawable/img2"
             />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/chicken3"
+            android:src="@drawable/img3"
             />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/chicken4"
+            android:src="@drawable/img4"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img5"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img6"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img7"
             />
 
     </ViewFlipper>

@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">ImageSlideShow</string>
+    <string name="app_name">다이엇뚜</string>
     <string name="but_start">start</string>
     <string name="but_stop">stop</string>
+    <string name="text_second">쀼뀨</string>
+
 </resources>
